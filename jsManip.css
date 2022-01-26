@@ -1,0 +1,39 @@
+#head2 {
+  color: #f1faee;
+  background-color: #4d194d;
+  padding: 5px 250px 5px 100px;
+  position: sticky;
+  top: 1px;
+  transition: 0.1s;
+}
+.hide {
+  display: none;
+}
+.glow {
+  transition: all 0.2;
+  transform: scale(1.1);
+}
+.onHo {
+  transition: all 0.3s ease-out;
+  border-bottom: 0.2em solid #d62828;
+  background-color: #f07167;
+  color: white;
+  padding: 0.2em 1em 0.2em 1em;
+  border-radius: 0.3em;
+  box-sizing: border-box;
+}
+
+.s_img_onHo {
+  transition: all 0.3s ease-out;
+  transform: translate(400px);
+}
+.s_img:hover {
+  transition: all 0.3s ease-out;
+  transform: scale(1.1);
+}
+.bar_onHo {
+  transition: all 0.6s ease-in-out;
+  display: flex;
+  height: 20px;
+  width: 500px;
+}
